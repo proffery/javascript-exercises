@@ -11,9 +11,9 @@ const leapYears = function(year) {
     }
 
     else {
-        isLeap =false;
+        isLeap = false;
     }
-    
+
     return isLeap;
 };
 
