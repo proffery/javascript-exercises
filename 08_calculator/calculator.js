@@ -35,7 +35,7 @@ const factorial = function(num) {
   for (i = num; i > 0; i--) {
     factorial *= i; 
   }
-  return factorial
+  return factorial;
 };
 
 // Do not edit below this line
