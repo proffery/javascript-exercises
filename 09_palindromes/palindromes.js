@@ -4,7 +4,7 @@ const palindromes = function (word) {
     let cleanWordToArr = cleanWord.split('');
     let reverseArr = new Array (cleanWordToArr.length);
     for (i = cleanWordToArr.length; i > 0; i--) {
-        reverseArr[cleanWordToArr.length - i] = cleanWordToArr[i -1];
+        reverseArr[cleanWordToArr.length - i] = cleanWordToArr[i - 1];
     }
     reverseWord = reverseArr.join('');
     
